@@ -29,3 +29,8 @@ Full-stack academic notes platform using Flask
 - HTML templates
 - CSS static files
 
+## Features Implemented
+- User interface with multiple pages
+- Login and dashboard workflow
+- Notes upload interface
+- Clean Flask project structure
