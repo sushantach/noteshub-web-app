@@ -18,3 +18,14 @@ NotesHub is a web-based academic platform that allows students to upload, manage
 ## Project Status
 🚧 Under development
 Full-stack academic notes platform using Flask
+
+## Pages Implemented
+- Home page
+- Login page
+- Dashboard page
+
+## Project Structure
+- Flask backend
+- HTML templates
+- CSS static files
+
