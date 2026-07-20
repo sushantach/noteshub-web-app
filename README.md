@@ -1,36 +1,18 @@
-# NotesHub – Full-Stack Academic Notes Platform
+# Python Security Scripts
 
-NotesHub is a web-based academic platform that allows students to upload, manage, and access study notes in an organized and efficient manner.
+A collection of practical Python utilities designed to demonstrate automation, data parsing, and network observation techniques within information security environments. This repository showcases the implementation of clean software architecture and **Object-Oriented Programming (OOP)** principles applied to defensive security workflows.
 
-## Features
-- Upload and view academic notes
-- Subject-wise organization
-- Simple and user-friendly interface
-- Scalable architecture for future enhancements
+##Project Modules
 
-## Tech Stack
-- Python (Flask)
-- HTML
-- CSS
-- JavaScript
-- SQLite (planned)
+### 1. Security Log Parser & Analyzer
+* **Description:** A modular script that ingests raw server access logs or firewall event data to detect potential brute-force activities, unauthorized system access attempts, and anomalies.
+* **Core Logic:** Implements an OOP framework using a dedicated `LogAnalyzer` class to cleanly filter, track, and aggregate high-risk indicators (e.g., repeated failed login attempts from a single source IP address).
 
-## Project Status
-🚧 Under development
-Full-stack academic notes platform using Flask
+### 2. Network Port Configuration Observer
+* **Description:** A lightweight network observation script utilizing Python's native socket capabilities to scan local endpoints for active communication channels.
+* **Core Logic:** Mimics the core functionality of automated discovery tools like Nmap by checking the status of essential operational ports (such as SSH, HTTP, and HTTPS) to identify exposed services.
 
-## Pages Implemented
-- Home page
-- Login page
-- Dashboard page
-
-## Project Structure
-- Flask backend
-- HTML templates
-- CSS static files
-
-## Features Implemented
-- User interface with multiple pages
-- Login and dashboard workflow
-- Notes upload interface
-- Clean Flask project structure
+## Key Learning Objectives & Focus
+* **Security Automation:** Moving away from manual operations by building reusable scripts to parse security data quickly.
+* **Object-Oriented Design:** Leveraging inheritance, encapsulation, and clean class structures to make security tooling scalable and easy to maintain.
+* **Defensive Engineering:** Translating fundamental theoretical cybersecurity frameworks into functional code.
